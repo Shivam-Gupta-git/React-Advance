@@ -1,6 +1,8 @@
 import './App.css'
 import ContextAPI from './components/ContextAPI'
 import ControlledComponents from './components/ControlledComponents'
+import UseCustomHook from './components/Custom Hooks/UseCustomHook'
+import HigherOrderFunction from './components/HigherOrderFunction'
 import PropDrilling from './components/PropDrilling'
 import UseEffectHook from './components/UseEffectHook'
 import UseStateHook from './components/UseStateHook'
@@ -16,7 +18,9 @@ function App() {
       {/* <UseEffectHook></UseEffectHook> */}
       {/* <ControlledComponents></ControlledComponents> */}
       {/* <PropDrilling></PropDrilling> */}
-      <ContextAPI></ContextAPI>
+      {/* <ContextAPI></ContextAPI> */}
+      {/* <HigherOrderFunction></HigherOrderFunction> */}
+      <UseCustomHook></UseCustomHook>
     </>
   )
 }
