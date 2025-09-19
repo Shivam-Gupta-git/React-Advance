@@ -16,3 +16,22 @@
 // 8) Custom Hooks = You can create your own hooks (functions starting with use) to reuse logic.
 
 
+// Custome Hooks.......................
+// -> Custome Hook = A custom hook in React is a reusable function that allows you to extract and share stateful logic between components without repeating code.
+
+// -> Why use Custom Hooks..... 
+//  To avoid code duplication.
+//  To separate concerns (cleaner components).
+//  To make logic reusable across multiple components.
+//  To keep components small and focused on UI.
+
+// -> Rules of Custom Hooks.....
+// 1.	The hook’s name must start with use (e.g., useFetch, useAuth).
+// 2.	Hooks can only be called at the top level of a function, not inside loops, conditions, or nested functions.
+// 3.	Hooks can only be used inside React functional components or other custom hooks.
+
+// -> React life cycle...........
+//    Lifecycle in Simple Words
+// •	Mounting → Component is born (added to DOM).
+// •	Updating → Component grows/changes (state or props update).
+// •	Unmounting → Component dies (removed from DOM).
