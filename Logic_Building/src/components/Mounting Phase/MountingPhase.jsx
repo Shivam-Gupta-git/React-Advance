@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 export default class MountingPhase extends Component {
 
-  constructor(){ // constructor are used to initilize some variable before rendering the page. 
+  constructor(){ // constructor are used to initilize some variable after rendering the page. 
     super();
     this.state={
       count: 0
