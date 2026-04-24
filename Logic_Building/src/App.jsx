@@ -1,4 +1,6 @@
 import './App.css'
+import ClassComponent from './components/Class Component/Class'
+import ClassCounterComponent from './components/Class Component/ClassCounterComponent'
 import ContextAPI from './components/ContextAPI'
 import ControlledComponents from './components/ControlledComponents'
 import UseCustomHook from './components/Custom Hooks/UseCustomHook'
@@ -13,6 +15,7 @@ import UseEffectHook from './components/UseEffectHook'
 import UseMemoHook from './components/UseMemoHook'
 import UseStateHook from './components/UseStateHook'
 import VirtualDom from './components/VirtualDom'
+import ForwardRef from './components/forwardRef/Ref'
 
 function App() {
 
@@ -27,11 +30,14 @@ function App() {
       {/* <ContextAPI></ContextAPI> */}
       {/* <HigherOrderFunction></HigherOrderFunction> */}
       {/* <UseCustomHook></UseCustomHook> */}
-      <Lazyloading></Lazyloading>
+      {/* <Lazyloading></Lazyloading> */}
       {/* <UseMemoHook></UseMemoHook> */}
       {/* <MountingPhase></MountingPhase> */}
       {/* <UpdatingPhase></UpdatingPhase> */}
       {/* <UnmountingPhase></UnmountingPhase> */}
+      {/* <ClassComponent/> */}
+      {/* <ClassCounterComponent/> */}
+      <ForwardRef/>
 
     </>
   )
