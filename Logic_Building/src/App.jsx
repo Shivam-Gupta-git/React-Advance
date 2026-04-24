@@ -27,11 +27,11 @@ function App() {
       {/* <ContextAPI></ContextAPI> */}
       {/* <HigherOrderFunction></HigherOrderFunction> */}
       {/* <UseCustomHook></UseCustomHook> */}
-      {/* <Lazyloading></Lazyloading> */}
+      <Lazyloading></Lazyloading>
       {/* <UseMemoHook></UseMemoHook> */}
       {/* <MountingPhase></MountingPhase> */}
       {/* <UpdatingPhase></UpdatingPhase> */}
-      <UnmountingPhase></UnmountingPhase>
+      {/* <UnmountingPhase></UnmountingPhase> */}
 
     </>
   )
