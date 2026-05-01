@@ -4,6 +4,7 @@ import ClassCounterComponent from './components/Class Component/ClassCounterComp
 import ContextAPI from './components/ContextAPI'
 import ControlledComponents from './components/ControlledComponents'
 import UseCustomHook from './components/Custom Hooks/UseCustomHook'
+import Example from './components/ExampleFile/Example'
 import HigherOrderFunction from './components/HigherOrderFunction'
 import Lazyloading from './components/Lazy loading/Lazyloading'
 import MountingPhase from './components/Mounting Phase/MountingPhase'
@@ -37,7 +38,8 @@ function App() {
       {/* <UnmountingPhase></UnmountingPhase> */}
       {/* <ClassComponent/> */}
       {/* <ClassCounterComponent/> */}
-      <ForwardRef/>
+      {/* <ForwardRef/> */}
+      <Example/>
 
     </>
   )
