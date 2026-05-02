@@ -1,2 +1,0 @@
-This is initial data
-This is appended data
